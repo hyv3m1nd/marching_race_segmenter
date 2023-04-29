@@ -15,3 +15,5 @@ When a sorted list was used, the complexity got reduced to O(n log n), and the s
 
 ## Note
 I later learned that this algorithm works in a similar way to 3D Slicer's flood filling method.
+
+Code written in 2021
