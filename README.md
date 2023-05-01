@@ -19,3 +19,7 @@ When a step is taken, only calculate the new priorities in the voxels surroundin
 I later learned that this algorithm works in a similar way to 3D Slicer's flood filling method.  
 
 Code written in 2021
+
+## Special thanks
+To **Scott Collins**, radiology technologist and my mentor, for teaching me to interpret medical images and showing me many segmentation techniques.  
+To the **Department of Diagnostic Imaging at Rhode Island Hospital** for the experience and platform.  
