@@ -12,8 +12,10 @@ Apart from structures involving composite structures (such as the bowel), this a
 At first, each unlabeled voxel was added to a marching queue by comparing its marching priority (the inverse of color difference) with all other voxels in the queue. The complexity was O(n^2). A high definition torso CT scan with around 31 million voxels tool nearly an entire day on my PC.
 When a sorted list was used, the complexity got reduced to O(n log n), and the same CT scan could be processed in 10-30 minutes.
 
+## Potential optimization  
+When a step is taken, only calculate the new priorities in the voxels surrounding the newly labeled voxel. I would expect this optimization to cut down the runtime further to around 2 minutes.  
 
 ## Note
-I later learned that this algorithm works in a similar way to 3D Slicer's flood filling method.
+I later learned that this algorithm works in a similar way to 3D Slicer's flood filling method.  
 
 Code written in 2021
